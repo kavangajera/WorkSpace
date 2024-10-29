@@ -118,7 +118,7 @@ const App = () => {
 
         peerRef.current = new Peer(undefined, {
           path: '/peerjs',
-          host: 'localhost',
+          host: '/',
           port: '3002',
           secure: false,
         });
