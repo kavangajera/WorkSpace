@@ -6,7 +6,7 @@ const PORT = 3002;
 
 // CORS configuration for PeerJS
 const corsOptions = {
-    origin: 'http://localhost:5173', // Specify your client URL here
+    origin: '*', // Specify your client URL here
     methods: ["GET", "POST"],
     credentials: true,
 };

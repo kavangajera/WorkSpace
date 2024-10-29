@@ -7,7 +7,7 @@ const server = http.createServer(app);
 
 // CORS configuration
 const corsOptions = {
-    origin: 'http://localhost:5173', // Specify your client URL here
+    origin: '*', // Specify your client URL here
     methods: ["GET", "POST"],
     credentials: true,
 };
@@ -25,7 +25,7 @@ const usersInRoom = {};
 // Set up Socket.IO
 const io = require('socket.io')(server, {
     cors: {
-        origin: "http://localhost:5173", // Specify your client URL here
+        origin: "*", // Specify your client URL here
         methods: ["GET", "POST"],
         credentials: true,
     }
