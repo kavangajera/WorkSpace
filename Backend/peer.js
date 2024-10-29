@@ -6,7 +6,7 @@ const PORT = 3002;
 
 // CORS configuration for PeerJS
 const corsOptions = {
-    origin: '*', // Specify your client URL here
+    origin: 'https://work-space-git-main-devborisagar80-gmailcoms-projects.vercel.app/', // Specify your client URL here
     methods: ["GET", "POST"],
     credentials: true,
 };
