@@ -112,14 +112,14 @@ const App = () => {
           videoRef.current.srcObject = stream;
         }
 
-        socket.current = io("http://localhost:3001", {
+        socket.current = io("https://workspace-qvqj.onrender.com", {
           withCredentials: true,
         });
 
         peerRef.current = new Peer(undefined, {
           path: '/peerjs',
-          host: '/',
-          port: '3002',
+          host: 'https://workspace-1-y9er.onrender.com',
+          port: '',
           secure: false,
         });
 
