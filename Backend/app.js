@@ -7,7 +7,7 @@ const server = http.createServer(app);
 
 // CORS configuration
 const corsOptions = {
-    origin: 'https://work-space-git-main-devborisagar80-gmailcoms-projects.vercel.app/', // Specify your client URL here
+    origin: 'https://work-space-git-main-devborisagar80-gmailcoms-projects.vercel.app', // Specify your client URL here
     methods: ["GET", "POST"],
     credentials: true,
 };
@@ -25,7 +25,7 @@ const usersInRoom = {};
 // Set up Socket.IO
 const io = require('socket.io')(server, {
     cors: {
-        origin: "https://work-space-git-main-devborisagar80-gmailcoms-projects.vercel.app/", // Specify your client URL here
+        origin: "https://work-space-git-main-devborisagar80-gmailcoms-projects.vercel.app", // Specify your client URL here
         methods: ["GET", "POST"],
         credentials: true,
     }
