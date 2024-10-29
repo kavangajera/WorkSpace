@@ -118,9 +118,9 @@ const App = () => {
 
         peerRef.current = new Peer(undefined, {
           path: '/peerjs',
-          host: 'https://workspace-1-y9er.onrender.com',
+          host: 'workspace-1-y9er.onrender.com',
           port: '',
-          secure: false,
+          secure: true,
         });
 
         peerRef.current.on('error', (err) => {
