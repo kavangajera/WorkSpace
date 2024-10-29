@@ -1,0 +1,5 @@
+{
+  "name": "Edgemesh Signaling Server",
+  "description": "A server side component to broker connections between edgemesh clients.",
+  "website": "https://edgemesh.com/"
+}
